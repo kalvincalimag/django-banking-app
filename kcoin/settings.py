@@ -10,9 +10,12 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
-from pathlib import Path
 import os
+
 from dotenv import load_dotenv
+from kcoin.logging import LOGGING_CONFIG_DICT
+from pathlib import Path
+
 
 load_dotenv()
 
@@ -113,6 +116,9 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+LOGGING = LOGGING_CONFIG_DICT
 
 
 # Internationalization

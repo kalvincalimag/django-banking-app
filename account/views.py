@@ -1,3 +1,5 @@
+import logging
+
 from django.shortcuts import render, redirect
 from account.models import KYC, Account
 from account.forms import KYCForm 
@@ -5,6 +7,10 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from core.forms import CreditCardForm
 from core.models import CreditCard
+
+
+logger = logging.getLogger(__name__)
+
 
 # @login_required
 def AccountView(request):
