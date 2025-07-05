@@ -28,11 +28,11 @@ An MVP banking app built with Python, Django, & Bootstrap demonstrating core ban
 
 ### Let's connect
 
-- Twitter [@kalvincalimag\_](https://twitter.com/kalvincalimag_)
+- Threads [@kalvin.calimag\_](https://www.threads.com/@kalvin.calimag)
 
 ### If you find this project helpful, please consider giving it a ⭐.
 
-[⭐](https://github.com/kalvincalimag/django-nextjs-jwt-starter) this repo or follow me on:
+[⭐](https://github.com/kalvincalimag/django-banking-app/stargazers) this repo or follow me on:
 
 - Github [@kalvincalimag](https://github.com/kalvincalimag)
 
